@@ -9,7 +9,7 @@ function makeArray(firstArray, secondArray, maxLength) {
   if (makeArray.length > maxLength) {
     return makeArray.slice(0, maxLength);
   } else {
-   return makeArray;   
+  return makeArray;   
   }
 }
 

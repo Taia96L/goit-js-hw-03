@@ -15,9 +15,6 @@ for (const num of numbers) {
     if (num > value) {          
     filtered.push(num);       
     }
-    else {
-        return [];
-      }
   }
     return filtered;
 }
